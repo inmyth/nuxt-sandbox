@@ -13,7 +13,7 @@ export default {
         login: '/login', 
         logout: '/login',
         callback: false,
-        home: '/user'
+        home: '/'
       },
       strategies: {
         local: {
@@ -24,9 +24,6 @@ export default {
           }
         }
       }  
-    },
-    router: {
-      middleware: ['auth']
     }
   }
   
