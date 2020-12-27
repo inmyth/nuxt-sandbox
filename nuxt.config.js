@@ -5,6 +5,9 @@ export default {
       '@nuxtjs/axios',
       '@nuxtjs/auth'
     ],
+    plugins: [
+      { src: '~/plugins/amplify.js', mode: 'client' }
+    ],
     axios: {
       baseURL: 'http://localhost:3004'
     },
