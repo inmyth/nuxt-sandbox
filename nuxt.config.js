@@ -9,7 +9,7 @@ export default {
       { src: '~/plugins/amplify.js', mode: 'client' }
     ],
     axios: {
-      baseURL: 'http://localhost:3004'
+      baseURL: 'https://6hv0hej4sk.execute-api.us-east-1.amazonaws.com/helloworld'
     },
     auth: {
       redirect: {
